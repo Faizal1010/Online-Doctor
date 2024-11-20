@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Work Sans;
+}
+
+body{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.container{
+    width: 40vw;
+    height: fit-content;
+    background-color: #6CB4EE;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.input-box input{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.input-box button{
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.text{
+    background-color: rgb(42, 146, 167);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list{
+    position: absolute;
+    top: 0;
+    background-color: red;
+    
+}
